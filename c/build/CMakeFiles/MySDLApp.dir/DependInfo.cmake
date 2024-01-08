@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jmlz_rp/Documents/AZEN/c/main.c" "CMakeFiles/MySDLApp.dir/main.c.o" "gcc" "CMakeFiles/MySDLApp.dir/main.c.o.d"
+  "/Users/jmlz_rp/Documents/AZEN/C-app/c/main.c" "CMakeFiles/MySDLApp.dir/main.c.o" "gcc" "CMakeFiles/MySDLApp.dir/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

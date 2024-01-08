@@ -1,0 +1,25 @@
+In this case, you just need to update your CMake command to reflect the new structure:
+
+1. **Clean the Build Directory:**
+   ```bash
+   cd /Users/jmlz_rp/Documents/AZEN/C-app/c
+   rm -rf build
+   mkdir build
+   cd build
+   ```
+
+   This will remove the existing build directory and create a new one.
+
+2. **Run CMake Again:**
+   ```bash
+   cmake ..
+   ```
+
+   Make sure you are inside the newly created `build` directory when running this command.
+
+3. **Build Your Project:**
+   ```bash
+   cmake --build .
+   ```
+
+Now, you should be able to run your application using `./MySDLApp` inside the `build` directory. This approach keeps the build directory separate from the source directory, preventing conflicts. If you face any issues or have further questions, feel free to ask.

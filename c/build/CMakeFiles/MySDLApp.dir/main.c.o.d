@@ -1,4 +1,5 @@
-CMakeFiles/MySDLApp.dir/main.c.o: /Users/jmlz_rp/Documents/AZEN/c/main.c \
+CMakeFiles/MySDLApp.dir/main.c.o: \
+  /Users/jmlz_rp/Documents/AZEN/C-app/c/main.c \
   /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2/SDL_stdinc.h \
