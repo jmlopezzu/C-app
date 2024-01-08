@@ -1,0 +1,51 @@
+cmake -S . -B build && cmake --build build && cmake --install build
+
+brew install cmake
+
+
+brew install sdl2
+
+cmake -S . -B build
+cmake --build build
+
+cd build
+./MySDLApp
+
+
+
+-----------
+Assuming you are using the terminal, follow these steps to compile and run your program:
+
+1. **Open Terminal:**
+   - Open a terminal window on your computer.
+
+2. **Navigate to the Build Directory:**
+   - Use the `cd` command to navigate to the directory where your `CMakeLists.txt` file is and where the `build` directory is located. For example:
+     ```bash
+     cd /path/to/your/project/build
+     ```
+
+3. **Run CMake:**
+   - Run CMake to generate the build files:
+     ```bash
+     cmake ..
+     ```
+
+4. **Compile the Program:**
+   - Compile the program using the generated build files:
+     ```bash
+     cmake --build .
+     ```
+
+5. **Run the Executable:**
+   - Run the executable that was generated in the `build` directory:
+     ```bash
+     ./MySDLApp
+     ```
+
+   - If you encounter any issues, check the terminal output for error messages.
+
+Please try running the program with the modified `main.c` and let me know if you observe any error messages or if the window remains empty.
+
+
+

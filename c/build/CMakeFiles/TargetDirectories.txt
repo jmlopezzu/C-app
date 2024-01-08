@@ -1,0 +1,3 @@
+/Users/jmlz_rp/Documents/AZEN/c/build/CMakeFiles/MySDLApp.dir
+/Users/jmlz_rp/Documents/AZEN/c/build/CMakeFiles/edit_cache.dir
+/Users/jmlz_rp/Documents/AZEN/c/build/CMakeFiles/rebuild_cache.dir
